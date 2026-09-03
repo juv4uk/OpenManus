@@ -1,0 +1,12 @@
+; tasks.my — durable task plan for OpenManus (vendored third-party AI
+; agent framework, studied/referenced).
+
+((tasks . (
+  ("OPENMANUS-DOCUMENT-STUDY-PURPOSE" . (
+    (priority . 3.5)
+    (capabilities . (documentation agent-architecture))
+    (origin . OpenManus)
+    (description . "Vendored third-party open-source AI-agent framework with no ecosystem NOTICE explaining why it's kept locally -- reference architecture study for this ecosystem's own agent coordination (swarm-node, Guard), a dependency of some tool, or just exploratory. Write a short NOTICE stating the actual reason it's here, since an unexplained vendored agent framework is easy for a future agent to misread as an active dependency when it may just be a study reference.")
+    (done . ())
+  ))
+)))
